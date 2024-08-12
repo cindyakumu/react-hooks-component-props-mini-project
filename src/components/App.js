@@ -6,10 +6,21 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      <header>
+        <h1>Welcome to the Blog</h1>
+      </header>
+      <aside>
+        <p>About this blog</p>
+      </aside>
+      <main>
+        <article>
+          <h2>First Post</h2>
+          <p>Content of the first post</p>
+        </article>
+      </main>
     </div>
   );
 }
 
 export default App;
+
